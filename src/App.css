@@ -1,7 +1,7 @@
 #outline{
   stroke-dasharray: 357;
   stroke-dashoffset: 0;
-  animation: stroke-animation 1s ease-in forwards;
+  animation: stroke-animation 0.5s ease forwards;
 }
 @keyframes stroke-animation {
   from{
@@ -24,5 +24,5 @@
 }
 *{
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
 }
